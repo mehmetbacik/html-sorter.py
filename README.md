@@ -1,9 +1,6 @@
-# html-sorter.py
-Certainly, here is the description in Markdown format:
+# HTML Sorting Tool
 
 ---
-
-## HTML Sorting Tool
 
 This Python script sorts `<ul>` lists and their `<li>` elements inside `<div>` tags of the specified HTML file. It sorts the lists based on the chosen country, automatically utilizing appropriate language settings for sorting. The sorted results are saved to a "sorting_output" directory on your desktop.
 
