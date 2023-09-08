@@ -55,6 +55,8 @@ def perform_sorting(file_path, selected_country, section_or_div, class_name):
         tab_before_ul = "\t" * (spaces_count - 2)
 
         li_elements = re.findall(r'<li>(.*?)<\/li>', div_content)
+        #li_elements = re.findall(r'<li[^>]*>([^<]*)<\/li>', div_content)
+        
 
         li_elements.sort(key=lambda x: custom_sort_key(selected_country, x))
 
